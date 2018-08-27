@@ -105,7 +105,7 @@ if os.name == 'nt':                     #checking if the operating system is win
     if (drive != ""):
 
         mkDir(drive)
-    else:                               # creating folders in C drive is no other drive exists
+    else:                               # creating folders in C drive if no other drive exists
         drive="C:"
         mkDir(drive)
 
